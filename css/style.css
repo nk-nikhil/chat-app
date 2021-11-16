@@ -1,0 +1,104 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+body{
+    background: rgb(174,238,197);
+    background: radial-gradient(circle, rgba(174,238,197,1) 0%, rgba(148,187,233,1) 58%);
+}
+.container{
+    max-width: 995px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.message{
+    background-color: gray;
+    width: auto;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    background-color: #9ebce0;
+    color: #093131;
+    border-radius: 10px;
+    font-family: cursive;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 20px;
+}
+.btn{
+    width: 20%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 38px;
+    background-color: #6c88a9;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.timestamp{
+    font-size: 10px;
+    display: inline;
+    color:white;
+    vertical-align: sub;
+}
+.nameBold{
+    font-weight: bold; 
+    display:inline;
+}
+ 
